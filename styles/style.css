@@ -315,27 +315,27 @@
   }
 
   .footer {
+    margin: auto;
     display: flex;
-    gap: 150px;
+    flex-direction: row;
+    justify-content: space-between;
     width: 1000px;
     height: 98px;
     margin-top: 180px;
   }
 
   .address__footer {
-    flex-grow: 1;
     margin-top: 3px;
-    margin-left: 50px;
   }
 
   .footer__menu {
-    flex-grow: 1;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
     text-align: center;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+    padding-left: 37px;
   }
 
   .footer__menu-list {
@@ -349,9 +349,7 @@
 
   .footer__social-list {
     display: flex;
-    flex-grow: 1;
     gap: 48px;
-    margin-left: 10px;
     padding-top: 3px;
     list-style: none;
   }
