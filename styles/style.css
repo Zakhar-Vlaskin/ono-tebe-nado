@@ -139,10 +139,6 @@
     word-spacing: 18px;
   }
 
-  .small__padding {
-    padding-left: 3px;
-  }
-  
   .bet-button {
     width: 256px; 
     height: 51px;
@@ -154,6 +150,10 @@
     text-transform: uppercase;
     background-color: transparent;
     white-space: nowrap;
+  }
+
+  .small__padding {
+    padding-left: 3px;
   }
 
   .lots {
@@ -314,12 +314,12 @@
   }
 
   .footer {
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1000px;
     height: 98px;
+    margin: auto;
     margin-top: 180px;
   }
 
@@ -328,13 +328,13 @@
   }
 
   .footer__menu {
+    padding-left: 37px;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
     text-align: center;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
-    padding-left: 37px;
   }
 
   .footer__menu-list {
