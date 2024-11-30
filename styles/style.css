@@ -32,11 +32,11 @@
     padding-left: 4px;
   }
   
-  .header__links-list-item_no-bullet{
+  .header__links-list-item_no-bullet {
     list-style: none;
   }
   
-  .header__links-list-item .header__links-list-item_no-bullet{
+  .header__links-list-item .header__links-list-item_no-bullet {
     margin-left: 40px;
   }
 
@@ -147,7 +147,6 @@
     width: 256px; 
     height: 51px;
     margin-left: 55px;
-    border: #fff;
     border: 1px solid #fff;
     color: #fff;
     font-weight: 500;
@@ -213,7 +212,7 @@
     background-size: cover;
   }
 
-  .card_type_picture{
+  .card_type_picture {
     position: relative;
     width: 334px;
     margin-right: 0;
@@ -247,7 +246,7 @@
     line-height: 24px;
   }
 
-  .letter__dot{
+  .letter__dot {
     letter-spacing: 2.5px;
   }
 
